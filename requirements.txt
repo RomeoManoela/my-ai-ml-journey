@@ -2,3 +2,8 @@ numpy
 pandas
 bs4
 requests
+fastapi[standard]
+uvicorn
+sqlmodel
+streamlit
+scikit-learn

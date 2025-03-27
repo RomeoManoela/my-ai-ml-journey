@@ -1,0 +1,41 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+### create a hero row:
+POST http://127.0.0.1:8001/heroes/
+Content-Type: application/json
+
+{
+    "name": "BatMan 2",
+    "age": 30
+}
+
+### read all heroes:
+GET http://127.0.0.1:8001/heroes/
+Accept: application/json
+
+### get hero by id:
+GET http://127.0.0.1:8001/heroes/1
+Accept: application/json
+
+### delete hero by id:
+DELETE http://127.0.0.1:8001/heroes/1
+Accept: application/json
+
+### pacth a hero by id:
+PATCH http://127.0.0.1:8001/heroes/3
+Content-Type: application/json
+
+{
+    "name": "Romeo",
+    "age": 20
+}
