@@ -17,6 +17,8 @@ chart_data = pd.DataFrame(
     np.random.randn(6, 3),
     columns=['a', 'b', 'c']
 )
+st.write('uniform')
+st.line_chart(np.random.lognormal(mean=0, sigma=1, size=1000))
 
 print(chart_data)
 

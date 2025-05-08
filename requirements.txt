@@ -7,3 +7,4 @@ uvicorn
 sqlmodel
 streamlit
 scikit-learn
+matplotlib
