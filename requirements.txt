@@ -8,3 +8,5 @@ sqlmodel
 streamlit
 scikit-learn
 matplotlib
+seaborn
+scipy
